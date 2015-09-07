@@ -11,6 +11,7 @@ Restaurant.create({name: "Shake Shack", user_id:4})
 User.create({username: "Felix1234", name: "Felix", password:"1234", account_type:"customer"})
 User.create({username: "Ramen", name:"Sharon", password:"abcd", account_type:"customer"})
 User.create({username: "Paresh29", name:"Paresh", password:"1234",account_type:"customer"})
+User.create({username: "Justin", name:"Justin", password:"1234",account_type:"customer"})
 User.create({username: "soulmecca", name:"Danny", password:"asdf",account_type:"admin"})
 
 MenuItem.create({name: "ShackBurger", price: 5.19, restaurant_id: 1})
